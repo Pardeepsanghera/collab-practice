@@ -1,0 +1,25 @@
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding: 0 2.5rem;
+  margin: 0 0.5rem;
+}
+
+.height_80 {
+  height: 80vh;
+}
+
+.color_purple {
+  background-color: #7952b3;
+}
+
+.color_grey {
+  background-color: #555;
+}
+
+footer,
+ul li {
+  background-color: #f4f4f4;
+}
