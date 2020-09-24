@@ -1,3 +1,10 @@
+:root {
+  --purple: #7952b3;
+  --w_300: 300;
+  --grey: #555;
+  --light_grey: #f4f4f4;
+}
+
 ul {
   list-style: none;
 }
@@ -12,7 +19,7 @@ ul li {
 }
 
 .color_purple {
-  background-color: #7952b3;
+  background-color: var(--purple);
 }
 
 .color_grey {
@@ -22,4 +29,10 @@ ul li {
 footer,
 ul li {
   background-color: #f4f4f4;
+}
+
+.jumbotron {
+  background-color: var(--light_grey);
+  color: #000;
+  font-weight: var(--w_300);
 }
