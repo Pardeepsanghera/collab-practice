@@ -5,6 +5,10 @@
   --light_grey: #f4f4f4;
 }
 
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 ul {
   list-style: none;
 }

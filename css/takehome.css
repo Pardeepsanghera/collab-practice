@@ -1,0 +1,15 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.heading {
+  font-family: "Lobster", cursive;
+}
+
+ul {
+  list-style: none;
+}
+
+.jumbotron {
+  height: 550px;
+}
