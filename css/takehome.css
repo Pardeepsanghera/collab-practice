@@ -2,14 +2,61 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.heading {
+.title {
   font-family: "Lobster", cursive;
 }
-
+.heading {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 12px 0;
+  text-align: center;
+}
 ul {
   list-style: none;
 }
 
 .jumbotron {
-  height: 550px;
+  height: 380px;
+}
+
+.jumbotron button,
+#tickets button {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.speaker_title_name {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+#venue .heading {
+  text-align: left;
+}
+.hide {
+  display: none;
+}
+
+#venue .map {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  background: no-repeat url("../img/map-pic.png");
+  background-size: cover;
+}
+#venue .map:hover {
+  background: none;
+}
+#venue .map:hover + .hide {
+  display: block;
+  position: absolute;
+  top: 180px;
+  left: 0;
+  height: 140px;
+  width: 100%;
+}
+
+#venue img {
+  height: 100%;
+  width: 100%;
 }
